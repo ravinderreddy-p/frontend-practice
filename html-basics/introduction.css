@@ -15,10 +15,13 @@ h3{
 
 }
 
-.flex-example{
+.flex-example-row{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 16px;
     background-color: lightcyan;
+
 }
 
 .box-one{
@@ -31,4 +34,19 @@ h3{
     padding: 16px;
     width: 25%;
     background-color: lightgreen;
+}
+
+.box-three{
+    padding: 16px;
+    width: 25%;
+    background-color: lightblue;
+}
+
+.flex-example-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightslategray;
+    height: 200px;
+    margin-top: 50px;
 }
