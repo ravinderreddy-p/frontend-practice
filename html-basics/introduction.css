@@ -1,3 +1,16 @@
 h3{
     color: blue
 }
+.box-model{
+    padding: 16px 8px 4px 2px;
+    /* padding: auto; */
+    border-top: 18px solid lightgray;
+    border: 18px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 25px;
+    border-bottom-left-radius: 50px;
+    margin-top: 15px;
+    background-color: lightgray;
+
+}
