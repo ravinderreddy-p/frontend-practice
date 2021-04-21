@@ -14,3 +14,21 @@ h3{
     background-color: lightgray;
 
 }
+
+.flex-example{
+    display: flex;
+    padding: 16px;
+    background-color: lightcyan;
+}
+
+.box-one{
+    padding: 16px;
+    width: 25%;
+    background-color: lightcoral
+}
+
+.box-two{
+    padding: 16px;
+    width: 25%;
+    background-color: lightgreen;
+}
