@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #ffe268
+}
+
+.login-buttons{
+    background: #2f5d62;
+    padding: 16px;
+    color: white;
+    min-width: 60px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.card{
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-top: 16px;
+    max-width: 40%;
+    box-shadow: 4px 10px 0px 3px rgba(238,225,225,0.51);
+-webkit-box-shadow: 4px 10px 0px 3px rgba(238,225,225,0.51);
+-moz-box-shadow: 4px 10px 0px 3px rgba(238,225,225,0.51);
+}
+
+.author-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 20%;
+    background-color: white;
+}
+
+.post-container{
+    position: relative;
+    padding: 16px;
+    display: block;
+    flex-basis: 80%;
+    background-color: #bdd2b6;
+}
+
+.elipsis-icon{
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+
+.trash-icon{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    cursor: pointer;
+}
+.trash-icon:hover{
+    color: red;
+}

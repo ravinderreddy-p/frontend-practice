@@ -1,0 +1,1 @@
+const str = "<div class='author-container'> ${author} </div> <div class='post-card'> <h3>${title}</h3> <p> ${summary} </p></div>";

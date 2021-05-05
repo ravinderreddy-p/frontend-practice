@@ -7,6 +7,10 @@ header{
     justify-content: space-between;
 }
 
+body{
+    background-color: #ffe268
+}
+
 .login-buttons{
     background: blue;
     padding: 16px;
@@ -28,3 +32,4 @@ header{
     color: grey;
     min-width: 75px;
 }
+
