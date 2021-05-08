@@ -1,0 +1,63 @@
+.modal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    /* opacity:0.1; */
+}
+
+
+.modal-content{
+    padding: 25px;
+    background: white;
+    /* margin: 20% auto; */
+    width: 20%;
+
+}
+
+.modal-header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+}
+
+.close{
+    margin-left:  auto;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+
+.form-input{
+    background-color: lightgray;
+    padding: 8px;
+    border: none;
+}
+
+.primary{
+    width: 80%;
+    padding: 16px;
+    color: white;
+    border: none;
+    background-color: green;
+}
+
+.action-container{
+    margin: 16px;
+    padding-top: 24px;
+}
